@@ -1,52 +1,54 @@
-/* src/Profile.css */
-.profile {
+.cardWrapper {
     width: 300px;
-    margin: 0 auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #fff;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-bottom: 15px;
+    margin: 15px auto;
+    border-radius: 4px;
 }
 
-.description {
-    padding: 20px;
+.profileWrapper {
+    padding: 15px;
 }
 
-.avatar {
-    width: 100px;
+.cardImg {
+    width: 100x;
     height: 100px;
     border-radius: 50%;
+    background-color: rgb(45, 43, 43);
 }
 
-.name {
-    font-size: 24px;
+.cardName {
+    font-size: 30px;
     font-weight: bold;
-    margin: 10px 0;
 }
 
-.tag,
-.location {
-    color: #777;
-    margin: 5px 0;
+.cardText {
+    color: rgb(175, 175, 168);
 }
 
-.stats {
+.listStats {
     display: flex;
-    justify-content: space-around;
-    background-color: #f3f3f3;
-    border-top: 1px solid #ddd;
+    padding: 0;
+    background-color: rgb(180, 192, 188);
 }
 
-.stats-item {
+.itemStats {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% / 3);
+    height: 65px;
+    border: 1px solid rgb(107, 107, 107);
 }
 
-.label {
-    display: block;
-    color: #777;
-}
-
-.quantity {
-    font-size: 18px;
+.statsSpan {
     font-weight: bold;
+    font-size: 20px;
+    color: rgb(248, 249, 250);
 }
