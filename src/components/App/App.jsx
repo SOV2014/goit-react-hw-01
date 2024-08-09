@@ -1,10 +1,8 @@
 import "./App.css";
 import Profile from "../Profile/Profile";
 import userData from "../Data/userData.json";
-// import friends from "../data/friends.json";
-// import FriendList from "./FriendList/FriendList";
-// import transactions from "../data/transactions.json";
-// import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import friends from "../Data/friends.json";
+import FriendList from "../FriendList/FriendList";
 
 function App() {
   return (
@@ -16,9 +14,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      {/* 
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} /> */}
     </>
   );
 }
