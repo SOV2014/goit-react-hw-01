@@ -1,17 +1,11 @@
-.friendsList {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 600px;
+  gap: 8px;
 }
 
 .listItem {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(39, 38, 38);
-    border-radius: 8px;
-    width: 100px;
-    height: 150px;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
+  width: calc((100% - 32px) / 5);
 }
